@@ -1,16 +1,20 @@
 # uni_news
 
-A new Flutter project.
+A flutter application that fetches and shows all the latest news from the UPEI university newsletter. This was created as a project for a mobile development course.
+This application uses flutter 2.10.5.
+## Features
 
-## Getting Started
+The home screen shows a list of all the latest news items, fetched directly from the UPEI newsletter, clicking on a news object will open the details of that news item. Furthermore, there is the option to save news items to be able to view them offline by clicking on the + icon next to the respective news item. To access the offline screen, there is a hot button at the bottom.
 
-This project is a starting point for a Flutter application.
+## Dependencies used:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  cupertino_icons: ^1.0.2
+  faker_dart: ^0.1.3
+  equatable: ^2.0.3
+  google_fonts: ^2.1.0
+  provider: ^6.0.0
+  webfeed: ^0.7.0
+  http: ^0.13.4
+  html: ^0.15.0
+  sqflite: ^2.0.2
+  mockito: ^5.1.0
