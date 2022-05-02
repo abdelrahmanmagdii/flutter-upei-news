@@ -8,13 +8,13 @@ The home screen shows a list of all the latest news items, fetched directly from
 
 ## Dependencies used:
 
-  cupertino_icons: ^1.0.2
-  faker_dart: ^0.1.3
-  equatable: ^2.0.3
-  google_fonts: ^2.1.0
-  provider: ^6.0.0
-  webfeed: ^0.7.0
-  http: ^0.13.4
-  html: ^0.15.0
-  sqflite: ^2.0.2
+  cupertino_icons: ^1.0.2 <br />
+  faker_dart: ^0.1.3 <br />
+  equatable: ^2.0.3 <br />
+  google_fonts: ^2.1.0 <br />
+  provider: ^6.0.0 <br />
+  webfeed: ^0.7.0 <br />
+  http: ^0.13.4 <br />
+  html: ^0.15.0 <br />
+  sqflite: ^2.0.2 <br />
   mockito: ^5.1.0
