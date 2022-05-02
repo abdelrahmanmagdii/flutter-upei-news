@@ -4,7 +4,7 @@ A flutter application that fetches and shows all the latest news from the UPEI u
 This application uses flutter 2.10.5.
 ## Features
 
-The home screen shows a list of all the latest news items, fetched directly from the UPEI newsletter, clicking on a news object will open the details of that news item. Furthermore, there is the option to save news items to be able to view them offline by clicking on the + icon next to the respective news item. To access the offline screen, there is a hot button at the bottom.
+The home screen shows a list of all the latest news items, fetched directly from the UPEI newsletter, clicking on a news object will open the details of that news item. Furthermore, there is the option to save news items to be able to view them offline by clicking on the + icon next to the respective news item. To access the offline screen, there is a Floating Action button at the bottom.
 
 ## Dependencies used:
 
