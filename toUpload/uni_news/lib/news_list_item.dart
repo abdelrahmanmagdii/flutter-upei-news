@@ -7,28 +7,24 @@ import 'model/news_item.dart';
 import 'news_details.dart';
 
 
-//TODO ABDO
 class NewsListItem extends StatefulWidget {
   NewsItem newsItem;
   int index;
   NewsCache newsCache;
   NewsListItem(this.newsItem, this.index, this.newsCache);
 
-  //TODO ABDO
   @override
   State<StatefulWidget> createState() {
     return _NewsListItemState(this.newsItem, this.index, this.newsCache);
   }
 }
 
-//TODO ABDO
 class _NewsListItemState extends State<NewsListItem> {
   NewsItem newsItem;
   int index;
   NewsCache newsCache;
   late Color backgooundColor;
 
-  //TODO ABDO
   _NewsListItemState(this.newsItem, this.index, this.newsCache)
   {
     if(newsItem.isRead)
@@ -40,7 +36,6 @@ class _NewsListItemState extends State<NewsListItem> {
     }
   }
 
-  //TODO ABDO
   void openStoryDetails(BuildContext ctx){
     newsCache.currentIndex = index;
     newsItem.isRead = true;
@@ -50,7 +45,6 @@ class _NewsListItemState extends State<NewsListItem> {
 
   }
 
-  //TODO ABDO
   @override
   Widget build(BuildContext context) {
     final double width = MediaQuery.of(context).size.width;
@@ -94,7 +88,6 @@ class _NewsListItemState extends State<NewsListItem> {
     );
   }
 
-  //TODO ABDO
   _save(NewsItem newsItem,BuildContext context) {
     if(!newsItem.savedOffline)
     {
@@ -103,7 +96,6 @@ class _NewsListItemState extends State<NewsListItem> {
     _showDialog(context);
   }
 
-  //TODO ABDO
   void _showDialog(BuildContext context) {
     showDialog(
       context: context,
